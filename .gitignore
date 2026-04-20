@@ -1,0 +1,4 @@
+*.parquet
+Datasets/
+.DS_Store
+myenv/
