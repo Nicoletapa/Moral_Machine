@@ -3,7 +3,7 @@ import pyarrow as pa
 import pyarrow.parquet as pq
 
 INPUT_FILE  = "Datasets/SharedResponses.csv"
-OUTPUT_FILE = "SharedResponses_clean.parquet"
+OUTPUT_FILE = "Datasets/SharedResponses_clean.parquet"
 CHUNK_SIZE  = 500_000
 
 cols_to_drop = [
