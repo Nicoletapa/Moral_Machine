@@ -1,4 +1,4 @@
-*.parquet
 Datasets/
-.DS_Store
+*.csv
+*.parquet
 myenv/
