@@ -2,8 +2,8 @@ import pandas as pd
 import pyarrow as pa
 import pyarrow.parquet as pq
 
-INPUT_FILE  = "Datasets/SharedResponses.csv"
-OUTPUT_FILE = "Datasets/SharedResponses_clean.parquet"
+INPUT_FILE  = "Dataset/SharedResponses.csv"
+OUTPUT_FILE = "Dataset/SharedResponses_clean.parquet"
 CHUNK_SIZE  = 500_000
 
 cols_to_drop = [
